@@ -1,0 +1,7 @@
+# BLOQUEAR TODOS OS ARQUIVO .TXT #
+# BLOCK ALL .TXT FILES #
+
+<Files ~ "\.txt">
+Order allow,deny
+Deny from all
+</Files>
